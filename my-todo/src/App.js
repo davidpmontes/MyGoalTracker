@@ -13,6 +13,7 @@ class App extends React.Component {
   }
   render(){
     return(<div>
+          <h1 className="app-title">MY TODO LIST</h1>
           <AddToDo addTodoFn = {this.addTodo}></AddToDo>
           <ToDoList updateTodoFn = {this.updateTodo} todos = {this.state.todos}></ToDoList>
           </div>);

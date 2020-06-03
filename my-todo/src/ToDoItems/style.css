@@ -1,6 +1,26 @@
+body{
+	text-align: center;
+    background: lightcyan;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+.app-title{
+    text-align: center;
+    color: dimgray;
+    font-size: 45px;
+}
+.add-btn{
+    background: lightblue;
+    width: 80px;
+    height: 20px;
+}
+.todoListContainer{
+	text-align: center;
+}
 .todoItem{
 	margin: 10px;
 	cursor: pointer;
+	font-family:Lucida Console;
 }
 
 .completed{
